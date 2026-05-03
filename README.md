@@ -22,3 +22,4 @@ You can ask the LLM complex questions across a massive data set, such as:
     "How many times was a specific word mentioned?"
 
 For instance, in a stock market downturn, seeing the word "challenging" repeated multiple times can be an early indicator that a particular stock may suffer a fall if it hasn't already.
+That same insight can be used for this exercise however way you want to tackle it.
