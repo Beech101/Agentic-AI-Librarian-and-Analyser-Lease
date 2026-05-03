@@ -5,11 +5,8 @@ This is a Non-Production Build and a simplified architectural demonstration, not
 The Strategy
 
     Preventing LLM "Stumble": The purpose of this project was to extract key legal clauses and financial information and dissect the pieces into chunks for different Agentic AIs to prevent hallucination.
-
     Context Management: Just as you can't feed a wall of 100,000 characters into a single prompt without the AI stumbling over itself, this modular approach keeps accuracy high.
-
     Data Input: This handles the initial ingestion of information.
-
     Sophisticated RAG: Note that the troubleshooting requirement—ensuring the system is pulling the correct info through high-level Retrieval-Augmented Generation—is not covered in this basic version.
 
 The "Brain" (Vector Database)
