@@ -1,4 +1,3 @@
-No worries at all. Here is your refined version—it’s punchy, human, and makes the technical logic very easy to digest for a hiring manager.
 Project Note: Finance Data Extraction Pipeline (PoC)
 Overview
 
