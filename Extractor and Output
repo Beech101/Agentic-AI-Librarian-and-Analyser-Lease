@@ -98,7 +98,7 @@ row_2 = {**{"File Name": "File Name"}, **{k: v for k, v in audit_mapping.items()
 
 for filename in os.listdir(lease_folder):
     if filename.endswith(".pdf"):
-        print(f"🕵️ Full Deep Audit: {filename}")
+        print(f" Full Deep Audit: {filename}")
         context = get_high_signal_text(os.path.join(lease_folder, filename))
         
         prompt = [
@@ -124,7 +124,7 @@ for filename in os.listdir(lease_folder):
                 
             all_results.append(mapped_data)
         except Exception as e:
-            print(f"❌ Error {filename}: {e}")
+            print(f" Error {filename}: {e}")
 
 # --- EXCEL GENERATION ---
 if all_results:
@@ -134,4 +134,4 @@ if all_results:
     
     final_df = pd.concat([df_row1, df_row2, df_data], ignore_index=True)
     final_df.to_excel(output_file, index=False, header=False)
-    print(f"\n🏆 FULL AUDIT COMPLETE! {output_file} now contains all {len(audit_mapping)} fields.")
+    print(f"\n FULL AUDIT COMPLETE! {output_file} now contains all {len(audit_mapping)} fields.")
