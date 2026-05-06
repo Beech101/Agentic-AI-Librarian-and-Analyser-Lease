@@ -27,4 +27,4 @@ This PoC utilizes a streamlined Agentic Flow to demonstrate core logic. In a ful
 
     JSON-Ready Outputs: The progression roadmap focuses on rigorous troubleshooting to ensure every output is structured, audit-ready, and ready for integration into existing ERP or BI tools.
 
-Data is the new gold—but only when refined. This pipeline provides the refinery.
+Data is the new gold, but only when refined. This pipeline provides the refinery.
