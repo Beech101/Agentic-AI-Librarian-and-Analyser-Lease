@@ -21,7 +21,7 @@ This architecture is designed to uncover financial leakage hidden in complex por
 
 This PoC utilizes a streamlined Agentic Flow to demonstrate core logic. In a full-scale enterprise deployment:
 
-    Multi-Agent Orchestration: Specialized agents (Validation, Cross-Referencing, and Audit) operate in silos to ensure reliability.
+    Multi-Agent Orchestration: Specialized agents (Validation ********XYZ ) operate in silos to ensure reliability.
 
     Weighted Analysis: Future iterations will include dynamic header weighting to prioritize critical data points.
 
