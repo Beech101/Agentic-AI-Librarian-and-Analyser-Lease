@@ -15,9 +15,9 @@ The pipeline feeds into a Vector Embedding Database, creating a centralized repo
 
     The Goal: To develop an institutional "second brain" that retains corporate knowledge with greater precision and recall than traditional human oversight.
 
-Commercial Application for why have a Vector Embedding Database:
-This architecture is designed to detect qualitative shifts in corporate sentiment. By tracking the emergence of specific risk-related linguistic patterns across years of filings, the system provides early indicators of market volatility before they manifest in price action.
-Agentic Design & Scalability
+Commercial Application: The "Hidden Money" Audit
+
+This architecture is designed to uncover financial leakage hidden in complex portfolios. By tracking subtle changes in how landlords phrase "Operating Expenses" or "Tax Escalations" across thousands of leases, the system identifies overcharges and missed savings before they impact the bottom line. It essentially turns a mountain of legal "fine print" into a map of recoverable cash.
 
 This PoC utilizes a streamlined Agentic Flow to demonstrate core logic. In a full-scale enterprise deployment:
 
