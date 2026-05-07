@@ -24,10 +24,6 @@ In complex sub-ledgers, a "Unique ID" represents a sequence, not a single point.
 
     The Innovation: I transitioned from Search-by-ID to Direct Row Indexing. The system treats every Excel row as a unique coordinate, allowing for 100% precision in high-density, multi-period contracts where the same Lease ID exists across multiple rows.
 
-Temporal Evidence Guardrails: Anchored Inference
-
-To eliminate "Year-Mixing," the inference engine is anchored to the Legacy Data timeline. It uses existing row dates as a logical lens, allowing the AI to scan a 100-page document while ignoring any financial values that fall outside that specific row’s specific accounting window.
-The "Briefcase" Protocol: State Isolation
 
 Designed a "Digital Amnesia" workflow using isolated AgentState. By resetting the state after every execution cycle, the system removes the risk of cross-contamination or "Memory Hallucinations" between disparate leases.
 X-Ray Debugging: Dual-Layer Audit Receipts
