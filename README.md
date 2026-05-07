@@ -21,4 +21,7 @@ Key Breakthroughs in Error Handling:
 
         State Isolation (The Briefcase Protocol): Designed a "Digital Amnesia" workflow. Each mission is contained in a fresh, isolated AgentState. By resetting the "Briefcase" after every row, the system removes the risk of cross-contamination or "Memory Hallucinations" between different leases.
 
+
+Code works. You will need to redirect the folder pathways located in agent 1, and potentially others. 
+
 A cornerstone of this development is continuous stress testing and the iterative engineering of robust exception-handling protocols, ensuring system integrity even under high-concurrency, high-complexity scenarios
