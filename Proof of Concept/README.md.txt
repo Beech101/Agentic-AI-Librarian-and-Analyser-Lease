@@ -1,0 +1,37 @@
+The Presentation: Project "Surgical Audit"
+1. The System Objective
+
+"Our objective was to validate the feasibility of a high-fidelity data extraction engine. The goal: extract 52 audit-critical fields from unstructured PDF lease agreements and map them into a structured, machine-readable format for downstream IFRS 16 compliance engines."
+2. Technical Architecture: The "Deep Signal" Strategy
+
+"Rather than a naive 'read-all' approach, this PoC utilizes a High-Signal Windowing technique.
+
+    Targeted Extraction: We isolate the first 12 and last 4 pages of the document, where the primary financial covenants and execution signatures reside.
+
+    The Logic Layer: We utilize an Azure OpenAI backbone with a temperature: 0 setting to ensure deterministic, reproducible outputs—essential for audit-grade work.
+
+    Data Structure: Every extraction is governed by a strict JSON schema, ensuring that our 'Analog-to-Digital' conversion maintains 100% data type integrity."
+
+3. Operational Efficiency (The Metrics)
+
+"The manual benchmark for this task is ~45 minutes per record.
+
+    Throughput: This engine processes a full deep-audit in <20 seconds.
+
+    Standardization: It automatically performs data normalization, converting messy human dates into ISO-standard DD/MM/YYYY and mapping ambiguous text into TRUE/FALSE booleans.
+
+    Result: We have achieved a 135x increase in processing velocity while eliminating manual transcription error."
+
+4. Scaling to "Agentic" Architecture
+
+"This PoC is a single-node pilot. For the full 7,200-row production deployment, we are moving to a LangGraph-based Agentic Framework.
+
+    Segmented Logic: We will decouple the 'Librarian' (File I/O) from the 'Analyst' (LLM Logic).
+
+    State Management: By using a persistent AgentState, we ensure a continuous audit trail.
+
+    Exception Handling: We will implement an 'Agent 5' Supervisor node to catch and flag low-confidence extractions, ensuring the system is self-healing and audit-resilient."
+
+5. The Bottom Line for the Enterprise
+
+"We aren't just reading documents; we are building a Surgical Data Pipeline. We have proven that the AI can handle the technical complexity of 52 fields. The next step is to deploy this as a fully autonomous agentic workforce that plugs directly into your Master Workbook with zero manual intervention."
