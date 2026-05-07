@@ -15,4 +15,6 @@ This folder contains two architectural tiers designed to automate IFRS 16 compli
 
     Architecture: Utilizes a LangGraph-driven framework to decouple tasks into specialized nodes: Librarian (Retrieval), Notary (Digitization), Analyst (Audit Logic), and Enforcer (Excel Integration).
 
-    Status: Alpha/Early Draft. This version serves as the foundational blueprint for a self-healing, "Human-in-the-Loop" production system.
+    Status: Alpha/Early Draft. This version was a foundational blueprint for a self-healing, "Human-in-the-Loop" production system. One of
+    the early problems detected in this build was the lack of indempotency. Say for instance a human corrects an entry and you ran the code again
+    It can overwrite the users amendmnet. 
