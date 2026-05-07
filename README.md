@@ -26,8 +26,8 @@ In complex sub-ledgers, a "Unique ID" represents a sequence, not a single point.
 
 
 Designed a "Digital Amnesia" workflow using isolated AgentState. By resetting the state after every execution cycle, the system removes the risk of cross-contamination or "Memory Hallucinations" between disparate leases.
-X-Ray Debugging: Dual-Layer Audit Receipts
 
+X-Ray Debugging: Dual-Layer Audit Receipts
 The system generates physical JSON "Receipts" for both the Digitization and the Decision Logic. This enables human auditors to instantly verify if a discrepancy originated in the raw text extraction or the legal interpretation.
 
 
