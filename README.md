@@ -1,7 +1,7 @@
 Project Overview: Agentic Lease Audit System
 
 Automating IFRS 16 Compliance for 7,200+ Global Contracts
-1. The Two-Tier Strategy
+ 1. The Two-Tier Strategy
 
     Tier 1: The Proof of Concept (PoC)
 
@@ -17,7 +17,7 @@ Automating IFRS 16 Compliance for 7,200+ Global Contracts
 
 ------------------------------------------------------------------------------
 
-2. Engineering Breakthroughs (The "Surgical Slide")
+ 2. Engineering Breakthroughs (The "Surgical Slide")
 Surgical GPS Indexing: Solving ID Collision
 
 In complex sub-ledgers, a "Unique ID" represents a sequence, not a single point. A standard AI would see these "duplicates" and hallucinate—potentially dropping 2028 rent data into a 2024 opening balance row.
@@ -35,16 +35,16 @@ X-Ray Debugging: Dual-Layer Audit Receipts
 The system generates physical JSON "Receipts" for both the Digitization and the Decision Logic. This enables human auditors to instantly verify if a discrepancy originated in the raw text extraction or the legal interpretation.
 
 
-3. Personal Impact: Financial Engineering vs. AI Automation
+ 3. Personal Impact: Financial Engineering vs. AI Automation
 
-    "Most AI implementations in finance fail because they treat data as 'flat'—they extract a number but have no concept of its chronological position in a ledger. I architected the 'Surgical Slide' to solve this."
+"Most AI implementations in finance fail because they treat data as 'flat'—they extract a number but have no concept of its chronological position in a ledger. I architected the 'Surgical Slide' to solve this."
 
 By treating the Lease ID as the first key and the Extracted Event Date as the second, my Enforcer Node initiates a logical scan across every row sharing an ID. It "slides" through the timeline until it finds the specific window where the document’s date fits mathematically between a row’s Start and End dates.
 
 This is the difference between "AI automation" and Financial Engineering. It turns a fragmented dataset into a high-integrity, audit-ready financial record.
 
 
-4. Implementation & Integrity
+ 4. Implementation & Integrity
 
     Production Velocity: Successfully collapsed 6-month manual audit cycles into 4 weeks.
 
