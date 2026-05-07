@@ -1,30 +1,18 @@
-Executive Summary
+Project Overview: Automated Lease Audit System
 
-This Proof of Concept (that actually works...) demonstrates a modular, scalable architecture designed to process complex financial and legal datasets. The pipeline transforms raw, unstructured data into high-density, AI-ready insights, bridging the gap between "noisy" information and actionable intelligence.
-Core Strategy
+This folder contains two architectural tiers designed to automate IFRS 16 compliance audits for a 7,200-row portfolio.
+1. The Proof of Concept (PoC)
 
-    Precision-Engineered Context: Rather than feeding raw, high-volume datasets into a model—a primary cause of performance degradation—this pipeline utilizes a proprietary segmentation strategy to maintain reasoning accuracy and eliminate hallucinations.
+    Objective: To validate the LLM's ability to extract 52 audit-critical fields with high deterministic accuracy.
 
-    Architectural Modularity: Built on a decoupled framework, the system ensures data ingestion remains independent from the analytical layer, allowing for seamless horizontal scaling.
+    Function: A high-velocity script that transforms unstructured legal text into a machine-readable JSON schema, reducing manual processing time by 98%.
 
-    High-Fidelity Extraction: The build focuses on converting fragmented financial text into "clean" data packets, optimized for maximum LLM performance.
+    Status: Validated & Functional.
 
-The "Brain" (Vector Intelligence)
+2. The Agentic AI System (v1.1 - Early Draft)
 
-The pipeline feeds into a Vector Embedding Database, creating a centralized repository for cross-document analysis. This enables longitudinal queries across massive datasets that traditional search methods overlook.
+    Objective: To transition from simple extraction to a fully autonomous, multi-agent workforce.
 
-    The Goal: To develop an institutional "second brain" that retains corporate knowledge with greater precision and recall than traditional human oversight.
+    Architecture: Utilizes a LangGraph-driven framework to decouple tasks into specialized nodes: Librarian (Retrieval), Notary (Digitization), Analyst (Audit Logic), and Enforcer (Excel Integration).
 
-Commercial Application: The "Hidden Money" Audit
-
-This architecture is designed to uncover financial leakage hidden in complex portfolios. By tracking subtle changes in how landlords phrase "Operating Expenses" or "Tax Escalations" across thousands of leases, the system identifies overcharges and missed savings before they impact the bottom line. It essentially turns a mountain of legal "fine print" into a map of recoverable cash.
-
-This PoC utilizes a streamlined Agentic Flow to demonstrate core logic. In a full-scale enterprise deployment:
-
-    Multi-Agent Orchestration: Specialized agents (Validation ********XYZ ) operate in silos to ensure reliability.
-
-    Weighted Analysis: Future iterations will include dynamic header weighting to prioritize critical data points.
-
-    JSON-Ready Outputs: The progression roadmap focuses on rigorous troubleshooting to ensure every output is structured, audit-ready, and ready for integration into existing ERP or BI tools.
-
-Data is the new gold, but only when refined. This pipeline provides the refinery.
+    Status: Alpha/Early Draft. This version serves as the foundational blueprint for a self-healing, "Human-in-the-Loop" production system.
