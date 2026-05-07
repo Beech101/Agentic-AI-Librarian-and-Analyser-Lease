@@ -1,0 +1,114 @@
+{
+  "lease_id": "LEASE 5",
+  "inventory": [
+    {
+      "file_name": "Lease XYZ.docx",
+      "type": "docx",
+      "content": [
+        {
+          "p": "Para 6",
+          "txt": "1. DEFINITIONS AND INTERPRETATION",
+          "file": "Lease XYZ.docx"
+        },
+        {
+          "p": "Para 17",
+          "txt": "5. PROVISOS",
+          "file": "Lease XYZ.docx"
+        },
+        {
+          "p": "Para 19",
+          "txt": "6. GOVERNING LAW",
+          "file": "Lease XYZ.docx"
+        }
+      ]
+    }
+  ],
+  "evidence_threads": {
+    "financial_schedules": [
+      {
+        "p": "Para 3",
+        "txt": "THE LANDLORD: DANIEL\u2019S AUTOMATED HOLDINGS LTD (Co. Reg. No: 0000000) of 100 Innovation Way, Cardiff, Wales, CF10 1AB.",
+        "file": "Lease XYZ.docx"
+      },
+      {
+        "p": "Para 9",
+        "txt": "\"Main Rent\": The sum of Fifty-One Thousand and Six Pounds (\u00a351,006.00) per annum, subject to the review provisions herein.",
+        "file": "Lease XYZ.docx"
+      },
+      {
+        "p": "Para 11",
+        "txt": "2. THE DEMISE AND RENTS",
+        "file": "Lease XYZ.docx"
+      },
+      {
+        "p": "Para 12",
+        "txt": "The Landlord demises the Premises to the Tenant for the Term, yielding and paying to the Landlord:2.1 The Main Rent: By twelve equal monthly installments of Four Thousand Two Hundred and Fifty Pounds and Fifty Pence (\u00a34,250.50). Payments are to be made in advance on the first day of each month, provided that the first payment (covering the period from the Commencement Date to the end of the month) shall be calculated on a pro-rata basis and paid on the date of this Deed.2.2 Insurance Rent: A sum equal to the premium paid by the Landlord for insuring the Premises.2.3 Service Charge: A fair and reasonable proportion of the costs incurred by the Landlord in maintaining the Estate Common Parts.",
+        "file": "Lease XYZ.docx"
+      },
+      {
+        "p": "Para 14",
+        "txt": "3.1 Outgoings: To pay all rates, taxes, and assessments charged on the Premises.3.2 VAT: All sums payable under this Lease are exclusive of VAT. The Tenant shall pay VAT on all taxable supplies at the prevailing rate (currently 20%).3.3 Repair: To keep the interior of the Premises in good and substantial repair and condition, fair wear and tear excepted.3.4 Alienation: Not to assign, underlet, or part with possession of the whole or any part of the Premises without the Landlord's prior written consent, such consent not to be unreasonably withheld or delayed.",
+        "file": "Lease XYZ.docx"
+      },
+      {
+        "p": "Para 18",
+        "txt": "5.1 Forfeiture: If the Rent remains unpaid for 21 days after becoming due (whether formally demanded or not), the Landlord may re-enter the Premises and the Lease shall absolutely determine.5.2 Yield Up: At the expiry of the Term, the Tenant shall yield up the Premises in a condition consistent with the Tenant's covenants.",
+        "file": "Lease XYZ.docx"
+      }
+    ],
+    "temporal_options": [
+      {
+        "p": "Para 1",
+        "txt": "DATE: 1st June 2026",
+        "file": "Lease XYZ.docx"
+      },
+      {
+        "p": "Para 7",
+        "txt": "\"Commencement Date\": 14th June 2026.",
+        "file": "Lease XYZ.docx"
+      },
+      {
+        "p": "Para 8",
+        "txt": "\"Term\": A period of five (5) years from and including the Commencement Date.",
+        "file": "Lease XYZ.docx"
+      },
+      {
+        "p": "Para 16",
+        "txt": "4.1 Quiet Enjoyment: The Landlord covenants with the Tenant that the Tenant may peaceably hold and enjoy the Premises during the Term without any interruption by the Landlord.",
+        "file": "Lease XYZ.docx"
+      }
+    ],
+    "asset_and_parties": [
+      {
+        "p": "Para 2",
+        "txt": "PARTIES:",
+        "file": "Lease XYZ.docx"
+      },
+      {
+        "p": "Para 4",
+        "txt": "THE TENANT: GLOBAL LOGISTICS CHAOS LTD (Co. Reg. No: 9999999) of 5 Extreme Stress Road, London, EC1A 1BB.",
+        "file": "Lease XYZ.docx"
+      },
+      {
+        "p": "Para 10",
+        "txt": "\"The Premises\": Unit 42, The Grid Industrial Estate, as more particularly described in Schedule 1.",
+        "file": "Lease XYZ.docx"
+      },
+      {
+        "p": "Para 13",
+        "txt": "3. TENANT'S COVENANTS",
+        "file": "Lease XYZ.docx"
+      },
+      {
+        "p": "Para 15",
+        "txt": "4. LANDLORD'S COVENANTS",
+        "file": "Lease XYZ.docx"
+      },
+      {
+        "p": "Para 20",
+        "txt": "This Deed and any dispute arising from it shall be governed by the laws of England and Wales and the parties submit to the exclusive jurisdiction of the High Court.",
+        "file": "Lease XYZ.docx"
+      }
+    ]
+  }
+}
