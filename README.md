@@ -9,7 +9,7 @@ This folder contains two architectural tiers designed to automate IFRS 16 compli
 
         Status: Validated & Functional.
 
-Architecture: A LangGraph-driven framework utilizing four specialized nodes: Librarian (Deep-Scavenger Retrieval), Notary (Multi-Format Digitization), Analyst (Temporal Reconciliation), and Enforcer (Coordinate-Based Integration).
+2. Architecture: A LangGraph-driven framework utilizing five specialized nodes: Librarian (Deep-Scavenger Retrieval), *******************************************
 
 Key Breakthroughs in Error Handling:
 
