@@ -14,13 +14,13 @@ The Presentation: Project "Surgical Audit"
 
 3. Operational Efficiency (The Metrics)
 
-"The manual benchmark for this task is ~45 minutes per record.
+"The manual benchmark for this task is ~25 minutes per record.
 
     Throughput: This engine processes a full deep-audit in <20 seconds.
 
     Standardization: It automatically performs data normalization, converting messy human dates into ISO-standard DD/MM/YYYY and mapping ambiguous text into TRUE/FALSE booleans.
 
-    Result: We have achieved a 135x increase in processing velocity while eliminating manual transcription error."
+    Result: We have achieved a **x increase in processing velocity while eliminating manual transcription error."
 
 4. Scaling to "Agentic" Architecture
 
